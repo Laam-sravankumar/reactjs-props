@@ -1,16 +1,20 @@
-import ClassComponent from './ClassComponent'
+/*import PropsExample from './PropsExample'*/
+/*import FuncPropExample from './FuncPropExample'*/
+import StateExample from './StateExample'
 
-import ClassComponent2 from "./ClassComponent2"
 function Demo(){
   return(
-    <section>
-      <p>Good Morning</p>
-      <h1>This is h1 tag</h1>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgp9An1_kvT0vBA52REbYMfpITtqtWly0Awg&usqp=CAU"/>
-      <ClassComponent/>
-      <ClassComponent2/>
-    </section>
+    <div>
+        {/*
+          <PropsExample framework="AngularJS" year="2008"/>
+				<PropsExample framework="ReactJS" year="2013"/>
+				<PropsExample framework="VueJS" year="2016"/>
+				<FuncPropExample framework="react" number="2"
+        */}
+        {/*<FuncPropExample framework="react" number="1"/>*/}
+        <StateExample/>
+    </div>
+
     )
 }
-
 export default Demo;
