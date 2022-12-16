@@ -1,5 +1,5 @@
 import React from 'react'
-{/*import React from 'react'
+/*import React from 'react'
 class PropsExample extends React.Component{
 	render(){
 		return(
@@ -10,7 +10,7 @@ class PropsExample extends React.Component{
 			)
 	}
 }
-export default PropsExample*/}
+export default PropsExample*/
 class PropsExample extends React.Component{
 	render(){
 		console.log(this.props)
